@@ -3,12 +3,12 @@ entries:
   aws-ip-ranges-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-04T16:45:03.154157774+05:30"
-    description: A Helm chart for Kubernetes
-    digest: c3edb5afa09bb1d8eef2cbd274f22448ee918f9107beccd23f99c66fe086786f
+    created: "2022-05-04T17:09:47.201357146+05:30"
+    description: FastAPI to list only x.x.x.x/32 CIDR range
+    digest: cbcc943d336e34774cfec40da92f3624a86f61bdccc9208b837fd3b3acbfd3b3
     name: aws-ip-ranges-chart
     type: application
     urls:
-    - https://j1shnu.github.io/aws-ip-ranges-assignment/aws-ip-ranges-chart-0.1.0.tgz
+    - https://charts.j1shnu.ml/aws-ip-ranges-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-04T16:45:03.15275348+05:30"
+generated: "2022-05-04T17:09:47.198247062+05:30"
