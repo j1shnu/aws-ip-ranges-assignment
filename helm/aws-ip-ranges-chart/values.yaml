@@ -5,12 +5,12 @@ image:
   pullPolicy: IfNotPresent
   tag: "latest"
 imagePullSecrets: []
-nameOverride: "python-proj"
-fullnameOverride: "python-project-1"
+nameOverride: "aws-ip-ranges"
+fullnameOverride: "aws-ip-ranges-fastapi"
 serviceAccount:
   create: true
   annotations: {}
-  name: "python-ips"
+  name: "aws-ip-ranges"
 podAnnotations: {}
 podSecurityContext: {}
 securityContext: {}
