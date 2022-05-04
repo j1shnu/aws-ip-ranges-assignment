@@ -1,6 +1,6 @@
 apiVersion: v2
 name: aws-ip-ranges-chart
-description: FastAPI to list only x.x.x.x/32 CIDR range
+description: FastAPI to list only x.x.x.x/32 CIDR range from AWS API
 type: application
 version: 0.1.0
 appVersion: "1.16.0"
