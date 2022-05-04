@@ -3,12 +3,12 @@ entries:
   aws-ip-ranges-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-04T17:09:47.201357146+05:30"
-    description: FastAPI to list only x.x.x.x/32 CIDR range
-    digest: cbcc943d336e34774cfec40da92f3624a86f61bdccc9208b837fd3b3acbfd3b3
+    created: "2022-05-04T19:14:31.975095823+05:30"
+    description: FastAPI to list only x.x.x.x/32 CIDR range from AWS API
+    digest: 9a5a323773695fad53ef59e90acf131ec845d69aac8bbbdc93ec914d7dcd3122
     name: aws-ip-ranges-chart
     type: application
     urls:
     - https://charts.j1shnu.ml/aws-ip-ranges-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-04T17:09:47.198247062+05:30"
+generated: "2022-05-04T19:14:31.974474398+05:30"
