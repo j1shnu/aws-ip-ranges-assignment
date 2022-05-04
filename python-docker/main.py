@@ -8,7 +8,7 @@ IP_FILE="/app/ip_prefixes.json"
 
 
 @app.on_event("startup")
-@repeat_every(seconds=5, wait_first=False)
+@repeat_every(seconds=120, wait_first=False)
 def get_ips():
     URL = "https://ip-ranges.amazonaws.com/ip-ranges.json"
     response = get(URL)
@@ -16,6 +16,7 @@ def get_ips():
     ipList = [i["ip_prefix"] for i in jsonData.get("prefixes")]
     ipList = [(i) for i in ipList if i.endswith("/32")]
     ipDictionary = {"ip_prefixes": ipList}
+    print(ipDictionary)
     with open(IP_FILE, "w") as outfile:
         dump(ipDictionary, outfile)
 
